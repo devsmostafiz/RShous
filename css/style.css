@@ -229,6 +229,60 @@ h1,h2,h3,h4,h5,h6 .p{
     margin: 0;
 }
 /* ========== Nav Bar Area ============ */
+.client_slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.slider_inner{
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    color: #fff;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 30px;
+    position: relative;
+    height: 300px;
+    width: 600px;
+    margin: 0 auto;
+}
+.client_pera{
+    color: #ffff;
+}
+.client_name{
+    font-family: 'Rubik', sans-serif;
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    padding-top: 50px;
+}
+.client_add{
+    display: block;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 300;
+    padding-top: 6px;
+}
+
+#client_love .slick-dots{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+#client_love .slick-dots li{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+#client_love .slick-dots li button{
+    display: none;
+}
+#client_love .slick-dots .slick-active{
+    background-color: yellow;
+}
 /* ========== Nav Bar Area ============ */
 /* ========== Nav Bar Area ============ */
 /* ========== Nav Bar Area ============ */
