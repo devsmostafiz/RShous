@@ -1,0 +1,240 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6 .p{
+    margin: 0;
+}
+/* .container{
+    width: 1170px;
+    margin: 0 auto;
+} */
+
+/* ========== Nav Bar Area ============ */
+
+.bg-coustome{
+    background-color: #06122c;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: 1.5rem;
+}
+/* ========== Banner Area ============ */
+#banner{
+    padding: 45px 0 64px 0;
+    background: linear-gradient(283deg, #081530, #2E3E61);
+}
+.rt-ban h1{
+    font-size: 116px;
+    line-height: 139px;
+    font-weight: 700;
+    font-style: italic;
+    font-family: 'Saira Semi Condensed', sans-serif;
+}
+.top_text{
+    color: #00EDF5;
+}
+.mid_text{
+    color: #4E638D;
+    }
+.btm_text{
+    color: #FFFFFF;
+    }
+.bnner_btn {
+    background: #FFC600;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 30px;
+    padding: 10px 35px;
+    transition: all linear 0.3s;
+}
+.bnner_btn:hover{
+    color: #FFC600;
+    border: 2px solid #FFC600;
+    background: none;
+}
+
+@media(max-width:767px){
+    .rt-ban {
+        text-align: center;
+    }
+    .rt-ban h1 {
+        font-size: 40px;
+        line-height: 48px;
+    }
+}
+/* ========== About Area ============ */
+#about{
+    background-color: #00EDF5;
+    padding: 50px 0;
+}
+.header_wrapper{
+    position: relative;
+    background-image: url(../images/blue-left-divider.png) ;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+.about_header{
+    color: #06122C;
+    font-size: 60px;
+    line-height: 80px;
+    font-weight: 700;
+    font-family: 'Rubik', sans-serif;
+}
+.about_hins{
+    color: #06122C;
+    font-size: 25px;
+    line-height: 40px;
+    font-weight: 600;
+    font-style: italic;
+    font-family: 'Rubik', sans-serif;
+    padding-bottom: 20px;
+}
+.about_pera{
+    color: #06122c;
+    font-size: 18px;
+    line-height: 1.5em;
+    font-weight: 300;
+    margin-bottom: 1.5em;
+    padding: 10px 50px 0 0;
+}
+.about_img{
+    padding-top: 108px;
+}
+/* ========== Perfect For Gym Area ============ */
+.Perfect_header{
+    color: #06122C;
+    font-size: 60px;
+    line-height: 80px;
+    font-weight: 700;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+}
+.Perfect_hins{
+    color: #06122C;
+    font-size: 25px;
+    line-height: 40px;
+    font-weight: 600;
+    font-style: italic;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+/* ========== Perfect For Gym Area========== */
+#Perfect{
+    padding: 50px 0;
+    background-color: #ECF4F4;
+}
+.Perfect_img{
+    text-align: center;
+    padding: 50px 0;
+}
+.Perfect_header_wrapper{
+    position: relative;
+    background-image: url(../images/blue-divider.png) ;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    padding-bottom: 20px;
+}
+.pr_counter {
+    font-family: 'Rubik', sans-serif;
+    font-size: 96px;
+    color: #ffc600;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.pr_title {
+    font-family: 'Rubik', sans-serif;
+    font-size: 26px;
+    color: #040e27;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.pr_pera{
+    font-size: 14px;
+    color: #818282;
+    font-weight: 300;
+}
+.pr_info{
+    padding: 10px;
+}
+/* ========== Nav Bar Area ============ */
+#like{
+    padding: 80px 0 280px;
+    background: #f2f6f6 url(../images/waves.png) no-repeat bottom center;
+    background-size: contain;
+}
+.like_info{
+    padding-top: 70px;
+}
+.info_title {
+    font-family: 'Rubik', sans-serif;
+    font-size: 35px;
+    color: #06122c;
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+.info_pera {
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    color: #818282;
+    font-weight: 300;
+    margin-bottom: 1.5em;
+    padding-bottom: 30px;
+}
+.like_img{
+    padding-top:70px;
+}
+.info_wrapper{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between !important;
+}
+/* ==========Our Client Love Us=========== */
+#client_love{
+    padding:50px 0 ;
+    background-color: #06122C;
+}
+.Client_header_wrapper{
+    position: relative;
+    background-image: url(../images/white-divider.png) ;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    padding: 50px 0;
+}
+.Client_header{
+    color: #ffff;
+    font-size: 60px;
+    line-height: 80px;
+    font-weight: 700;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+}
+.Client_hins{
+    color: #FFC600;
+    font-size: 25px;
+    line-height: 40px;
+    font-weight: 600;
+    font-style: italic;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    margin: 0;
+}
+/* ========== Nav Bar Area ============ */
+/* ========== Nav Bar Area ============ */
+/* ========== Nav Bar Area ============ */
+/* ========== Nav Bar Area ============ */
+/* ========== Nav Bar Area ============ */
+/* ========== Nav Bar Area ============ */
+/* ========== Nav Bar Area ============ */
+/* ========== Nav Bar Area ============ */
+/* ========== Nav Bar Area ============ */
+/* ========== Nav Bar Area ============ */
