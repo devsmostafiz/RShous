@@ -247,6 +247,7 @@ h1,h2,h3,h4,h5,h6 .p{
     height: 300px;
     width: 600px;
     margin: 0 auto;
+    cursor: grab;
 }
 .client_pera{
     color: #ffff;
@@ -283,12 +284,196 @@ h1,h2,h3,h4,h5,h6 .p{
 #client_love .slick-dots .slick-active{
     background-color: yellow;
 }
+/* ========== View shoes Area ============ */
+.shoe_img_wrapper{
+    position: relative;
+    
+}
+.shoe_img_wrapper:hover .img_info{
+    bottom: 30px;
+}
+.img_info {
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   padding: 30px;
+   transition: all linear 0.3s;
+} 
+.img_info h2 {
+    color: #fff;
+    font-size: 26px;
+    margin-bottom: 4px;
+    font-family: 'Rubik', sans-serif;
+}
+.img_info p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 0;
+    font-family: 'Rubik', sans-serif;
+    display: inline-block;
+}
+.img_info span{
+    color: #ffc600;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 0;
+    font-family: 'Rubik', sans-serif;
+}
+.shoe_wiues{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.shoes_img:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #06122c;
+    opacity: 0.4;
+}
+.info_btn {
+    background: #FFC600;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 30px;
+    padding: 5px 18px;
+    transition: all linear 0.3s;
+    display: block;
+    margin-top: 20px;
+}
+.info_btn:hover{
+    color: #FFC600;
+    border: 2px solid #FFC600;
+    background: none;
+}
+/* ==========Shoes Brand Area ============ */
+#shos_brand{
+    background-color: #F2F6F6;
+    padding: 30px 0;
+}
+.brand_img{
+    padding: 0 30px;
+    cursor: grab;
+}
+/* =======Get in Touch With Us===== */
+#getintuch{
+    padding: 60px 0;
+}
+.getintuch_header_wrapper{
+    position: relative;
+    background-image: url(../images/blue-divider.png) ;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    padding-bottom: 20px;
+}
+.getintuch_hins{
+    color: #06122C;
+    font-size: 60px;
+    line-height: 80px;
+    font-weight: 700;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+}
+.getintuch_header{
+    color: #06122C;
+    font-size: 25px;
+    line-height: 40px;
+    font-weight: 600;
+    font-style: italic;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
 /* ========== Nav Bar Area ============ */
+
+.contact_info{
+    padding-top: 50px;
+}
+.contact__pera{
+    color: #bbbbbb;
+    font-weight: 300;
+    line-height: 1.5em;
+    font-family: 'Rubik', sans-serif;
+    padding-bottom: 30px;
+}
+.con_add{
+    color: #06122c;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+.add__pera{
+    color: #bbbbbb;
+    font-weight: 300;
+    line-height: 1.5em;
+    font-family: 'Rubik', sans-serif;
+}
 /* ========== Nav Bar Area ============ */
+
+.coustom_foem{
+    padding-bottom: 30px;
+}
+.dfgr{
+    background-color: #F3F3F3;
+    border: none;
+}
+.msg{
+    background-color: #F3F3F3;
+    border: none;
+    padding: 10px;
+}
+.form-floating>.form-control {
+    /* padding: 10px !important; */
+}
 /* ========== Nav Bar Area ============ */
-/* ========== Nav Bar Area ============ */
-/* ========== Nav Bar Area ============ */
-/* ========== Nav Bar Area ============ */
-/* ========== Nav Bar Area ============ */
+#footer{
+    padding: 50px 0;
+    background-color: #06122C;
+    text-align: center;
+}
+.coustom_mgn{
+    margin: 0 auto;
+}
+.foter_cstm{
+    padding-top: 30px;
+}
+.nav-item{
+    text-transform: uppercase;
+}
+.nav-link .active:hover{
+    color: #FFC600;
+}
+.cocial_icon{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 20px;
+}
+.fotr_icon{
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+    line-height: 31px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    color: #06122C;
+    cursor: pointer;
+    transition: all linear 0.3s;
+}
+.fotr_icon:hover{
+    background-color: #FFC600;
+    color: #06122C;
+}
+.copyrite {
+    color: #fff;
+    font-weight: 300;
+    padding-top: 20px;
+}
+/*========== Nav Bar Area ============ */
 /* ========== Nav Bar Area ============ */
 /* ========== Nav Bar Area ============ */
