@@ -12,19 +12,37 @@ ul,ol{
 h1,h2,h3,h4,h5,h6 .p{
     margin: 0;
 }
-/* .container{
-    width: 1170px;
-    margin: 0 auto;
-} */
 
 /* ========== Nav Bar Area ============ */
 
-.bg-coustome{
+.nav-coustom{
     background-color: #06122c;
+    position: sticky;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 99999;
 }
+/* nav.navbar .main-menu {
+    padding: 16px 0;
+    background: none !important;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    transition: all 0.3s ease-in-out;
+}
+nav.navbar.main-menu.sticky-header {
+    background: #06122c !important;
+    padding: 6px 0;
+} */
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: .5rem;
     padding-left: 1.5rem;
+}
+.nav-item .nav-link{
+    color: #ffff;
+    transition: all linear 0.3s;
+}
+.nav-item .nav-link:hover{
+    color: #FFC600;
 }
 /* ========== Banner Area ============ */
 #banner{
