@@ -12,7 +12,9 @@ ul,ol{
 h1,h2,h3,h4,h5,h6 .p{
     margin: 0;
 }
-
+body{
+    scroll-behavior: smooth;
+}
 /* ========== Nav Bar Area ============ */
 
 .nav-coustom{
@@ -246,7 +248,8 @@ nav.navbar.main-menu.sticky-header {
     text-align: center;
     margin: 0;
 }
-/* ========== Nav Bar Area ============ */
+
+/* ========== Our Client Love Us=========== */
 .client_slider{
     display: flex;
     justify-content: center;
@@ -262,8 +265,8 @@ nav.navbar.main-menu.sticky-header {
     font-size: 20px;
     margin-bottom: 30px;
     position: relative;
-    height: 300px;
-    width: 600px;
+    /* height: 300px;
+    width: 600px; */
     margin: 0 auto;
     cursor: grab;
 }
@@ -283,6 +286,7 @@ nav.navbar.main-menu.sticky-header {
     font-style: italic;
     font-weight: 300;
     padding-top: 6px;
+    padding-bottom: 20px;
 }
 
 #client_love .slick-dots{
@@ -291,8 +295,8 @@ nav.navbar.main-menu.sticky-header {
     gap: 20px;
 }
 #client_love .slick-dots li{
-    width: 30px;
-    height: 30px;
+    width: 15px;
+    height: 15px;
     border-radius: 50%;
     background-color: #fff;
 }
@@ -408,8 +412,6 @@ nav.navbar.main-menu.sticky-header {
     margin: 0;
 }
 
-/* ========== Nav Bar Area ============ */
-
 .contact_info{
     padding-top: 50px;
 }
@@ -431,7 +433,7 @@ nav.navbar.main-menu.sticky-header {
     line-height: 1.5em;
     font-family: 'Rubik', sans-serif;
 }
-/* ========== Nav Bar Area ============ */
+/* ==========from validation============= */
 
 .coustom_foem{
     padding-bottom: 30px;
@@ -444,6 +446,29 @@ nav.navbar.main-menu.sticky-header {
     background-color: #F3F3F3;
     border: none;
     padding: 10px;
+} 
+.coustom_foem p{
+    color: rgb(165, 4, 4);
+    font-style: italic;
+}
+.form-floating P{
+    color: rgb(165, 4, 4);
+    font-style: italic;
+}
+.info_submit_btn {
+    background: #FFC600;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 30px;
+    padding: 5px 18px;
+    transition: all linear 0.3s;
+    display: block;
+    margin-top: 20px;
+}
+.info_submit_btn:hover{
+    color: #FFC600;
+    border: 2px solid #FFC600;
+    background: none;
 }
 .form-floating>.form-control {
     /* padding: 10px !important; */
